@@ -9,7 +9,7 @@ from .forms import UserLoginForm
 # Configure the logger
 logger = logging.getLogger('login_logger')
 logger.setLevel(logging.INFO)
-file_handler = logging.FileHandler('logs/login_log.txt')
+file_handler = logging.FileHandler('login_log.txt')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - Request Data: %(request_data)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
