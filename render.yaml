@@ -1,0 +1,7 @@
+services:
+  - name: web
+    startCommand: python manage.py runserver 0.0.0.0:8080
+
+environment:
+  - key: DJANGO_SETTINGS_MODULE
+    value: phising.settings
