@@ -48,7 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
-phising/settings.py
 phising/data/*
 phising/static/media/*
 static/media/*
